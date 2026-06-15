@@ -1,4 +1,4 @@
-Uncomment the required imports before adding the code
+# Uncomment the required imports before adding the code
 
 from django.shortcuts import render
 from django.http import HttpResponseRedirect, HttpResponse
