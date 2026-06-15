@@ -29,7 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "localhost",
-    "https://rodcasio-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai",
      ".theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai",
     ".theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai",
 ]
