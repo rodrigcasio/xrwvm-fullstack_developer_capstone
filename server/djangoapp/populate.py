@@ -38,4 +38,3 @@ def initiate():
             name=name, type=m_type, year=year,
             car_make=make, dealer_id=1
         )
-
