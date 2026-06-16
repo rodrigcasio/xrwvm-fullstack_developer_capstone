@@ -38,4 +38,3 @@ class CarModel(models.Model):
 
     def __str__(self):
         return self.car_make.name + " " + self.name
-
