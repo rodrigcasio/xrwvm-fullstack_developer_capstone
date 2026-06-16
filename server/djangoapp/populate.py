@@ -1,15 +1,16 @@
 from .models import CarMake, CarModel
 
+
 def initiate():
     # 1. Create CarMake instances
     makes = {
-        "NISSAN": "Japanese", "Mercedes": "German", 
+        "NISSAN": "Japanese", "Mercedes": "German",
         "Audi": "German", "Kia": "Korean", "Toyota": "Japanese"
     }
     make_objs = {}
     for name, tech in makes.items():
         make_objs[name] = CarMake.objects.create(
-            name=name, 
+            name=name,
             description=f"Great cars. {tech} technology"
         )
 
@@ -34,6 +35,7 @@ def initiate():
 
     for name, m_type, year, make in models:
         CarModel.objects.create(
-            name=name, type=m_type, year=year, 
+            name=name, type=m_type, year=year,
             car_make=make, dealer_id=1
         )
+
