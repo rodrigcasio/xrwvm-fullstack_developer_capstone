@@ -21,4 +21,5 @@
   
 ## Module 5
 - (CI/CD, Containerize & Deploy to Kubernetes)
-  7.Add-CI-CD.md
+  7.Add-CI-CD.md 
+  8-containerize-application.md
